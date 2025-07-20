@@ -1,0 +1,149 @@
+/*header starts*/
+.connect{
+    background: #474747;
+    color:white;
+}
+
+.phone-icon,.mail-icon{
+    width:16px;
+    height:16px;
+}
+
+.header-icon{
+    width: 27px;
+    height: 27px;
+}
+
+.nav-item .active{
+    background: #DBDFD0;
+    border-radius: 20px;
+}
+
+.navbar-brand h2{
+    font-family: "Playfair Display", serif;
+}
+
+.navbar-brand img{
+    width: 40px;
+    height:40px;
+}
+
+/*header ends*/
+
+
+/* 
+.main-sec{
+    width:100vw;
+    height:100vh;
+    background-image: url(./images/bg-image.png) contain;
+    position: absolute;
+
+
+    top: 60%;
+    left: 50%;
+
+}
+
+
+
+
+ .main-sec img{
+    object-fit: contain;
+}
+
+
+
+
+
+.main-content{
+    border: 1px solid black;
+    width: 40%;
+    <! z-index: 1; 
+    position: relative;
+    transform: translate(-50%,-50%);
+
+}
+
+.content-1 h1{
+    font-family: "Playfair Display", serif;
+    font-size:5vw;
+} 
+*/
+
+
+
+.main-sec{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-sec img{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    object-fit: cover;
+    z-index:-1;
+}
+
+.main-content{
+    height:fit-content;
+    width:30vw;
+    z-index:2;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+    @media only screen and (max-width: 768px){
+        width:40vw;
+    }
+
+    @media only screen and (max-width: 600px){
+        width:60vw;
+    }
+}
+
+
+.main-content h1{
+    font-family: "Playfair Display", serif;
+} 
+
+.main-content p{
+    font-size: 0.8rem;
+}
+
+.main-sec-btns btn{
+    @media only screen and (max-width: 600px){
+        font-size:8px;
+    }
+    
+}
+
+/* menu  */
+
+.menu-box{
+    border:1px solid #DBDFD0;
+    border-radius: 10px;
+}
+
+.circle{
+    width:80px;
+    height:80px;
+    border-radius: 40px;
+    border: none;
+}
+
+.menu-icons{
+    height:80px;
+    width:80px;
+}
+
+.heading h3{
+    font-family: "Playfair Display", serif;
+}
+
+.menu-content p{
+    font-size:0.9rem;
+}
